@@ -119,7 +119,8 @@ Langkah selanjutnya dalam perjalanan **LangGraph**:
 ---
 
 <div align="center">
-  <p>Dibuat dengan 💻 dan ☕ oleh <b>Farmil</b> sebagai bagian dari perjalanan menjadi AI Engineer.</p>
+  <p>Dibuat dengan 💻 dan ☕ oleh <b>Farhan Kamil Hermansyah - 152024150</b> sebagai bagian dari perjalanan menjadi AI Engineer.</p>
 </div>
 
 ```
+
