@@ -73,7 +73,7 @@ def configure_db(db_uri, mysql_host=None, mysql_user=None, mysql_password=None, 
 
         creator = lambda: sqlite3.connect(f"file:{dbfilepath}?mode=ro", uri = True)
         return SQLDatabase(create_engine("sqlite:///", creator =creator))
-
+ 
 
     elif db_uri == MYSQL:
         if not (mysql_db and mysql_host and mysql_user):
