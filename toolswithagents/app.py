@@ -78,6 +78,6 @@ if prompt:= st.chat_input(placeholder = "Apa itu machine learning?"):
         # Simpan ke session state agar tidak hilang saat rerun berikutnya
         st.session_state.messages.append({"role": 'assistant', "content": pesan_terakhir_content})
         st.write(pesan_terakhir_content)
-        
+         
  
 
