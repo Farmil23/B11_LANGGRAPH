@@ -79,5 +79,5 @@ if prompt:= st.chat_input(placeholder = "Apa itu machine learning?"):
         st.session_state.messages.append({"role": 'assistant', "content": pesan_terakhir_content})
         st.write(pesan_terakhir_content)
         
-
+ 
 
