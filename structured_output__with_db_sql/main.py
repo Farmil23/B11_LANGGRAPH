@@ -38,7 +38,7 @@ def process_CV_data(cv:str):
 
 def save_to_sql(data:CVData):
     conn = init_db()
-    cursor = conn.cursor()
+    cursor = conn.cursor() 
     cursor.execute("""
     INSERT INTO users (name, age, ipk)
     VALUES (?, ?, ?)
