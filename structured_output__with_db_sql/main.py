@@ -33,7 +33,7 @@ def process_CV_data(cv:str):
         response = structured_llm.invoke(f"Proses data tersebut dan ambil nama, age dan ipk dari {cv} tersebut")
         return response
     except Exception as e:
-        print(f"Error processing CV data: {e}")
+        print(f"Error processing CV data: {e}") 
         return None
 
 def save_to_sql(data:CVData):
