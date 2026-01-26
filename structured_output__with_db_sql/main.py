@@ -26,7 +26,7 @@ class CVData(BaseModel):
 
 def process_CV_data(cv:str):
     model = ChatGroq(model_name="openai/gpt-oss-120b", api_key=os.getenv("GROQ_API_KEY"))
-
+ 
     structured_llm = model.with_structured_output(CVData)
 
     try:
