@@ -65,7 +65,7 @@ if __name__ == "__main__":
         "Meskipun sempat cuti kuliah, Eka Saputra (25 tahun) akhirnya berhasil wisuda dengan raihan IPK 3.10 yang memuaskan.",
         
         # 6. Format Singkat / Baris
-        "Fajar / 24 th / 3.75 / Jakarta Selatan",
+        "Fajar / 24 th / 3.75 / Jakarta Selatan", 
         
         # 7. Penulisan IPK menggunakan Koma
         "Gita Pertiwi. Usia 22. Lulusan Sastra Jepang dengan nilai indeks prestasi 3,65.",
